@@ -1,0 +1,29 @@
+# Ignorar entorno virtual
+venv/
+.env/
+*.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de Jupyter (si usas notebooks)
+.ipynb_checkpoints/
+
+# Archivos de logs
+*.log
+
+# Directorios de cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
